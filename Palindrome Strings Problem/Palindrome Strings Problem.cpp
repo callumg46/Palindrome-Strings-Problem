@@ -12,6 +12,7 @@ pp
 deep
 zyx
 
+
 */
 
 #include <iostream>
@@ -19,7 +20,7 @@ zyx
 using namespace std;
 
 //reverse string
-string reverse(string& S) {
+string reverse(string& S) { 
     int n = S.length();
 
     for (int i = 0; i < n / 2; i++)
@@ -30,7 +31,7 @@ string reverse(string& S) {
 }
 
 int main()
-{
+{ 
     const int n = 4;
     string reversed;
     string normal;
